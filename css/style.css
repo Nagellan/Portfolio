@@ -143,18 +143,18 @@ nav .menu a:hover{
 =============================== C O N T A C T S ================================
 */
 
-#contacts{
+#links{
      background-color: #171717;
 }
 
-#contacts .container{
+#links .container{
      padding-top: 30px;
      padding-bottom: 30px;
      display: flex;
      justify-content: space-around;
 }
 
-#contacts .container div{
+#links .container div{
      display: inline-flex;
      width: 110px;
      height: 110px;
@@ -166,26 +166,30 @@ nav .menu a:hover{
      transition: all 0.3s ease;
 }
 
-#contacts .container div:hover{
+#links .container div:hover{
      background-color: white;
      background-blend-mode:difference;
 }
 
-#contacts .container a{
+#links .container a{
      height: 100%;
      width: 100%;
 }
 
-#contacts .vk{
-     background-image: url("../img/icons/vk-white.png");
+#links .vk{
+     background-image: url("../img/icons/vk.png");
 }
 
-#contacts .tg{
-     background-image: url("../img/icons/tg-white.png");
+#links .tg{
+     background-image: url("../img/icons/tg.png");
 }
 
-#contacts .mail{
-     background-image: url("../img/icons/mail-white.png");
+#links .github{
+     background-image: url("../img/icons/github.png");
+}
+
+#links .mail{
+     background-image: url("../img/icons/mail.png");
 }
 
 /*
