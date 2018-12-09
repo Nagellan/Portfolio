@@ -1,3 +1,7 @@
+/* html {
+     scroll-behavior: smooth;
+} */
+
 body{
      margin: 0;
      padding: 0;
@@ -69,25 +73,26 @@ nav a{
      text-decoration: none;
 }
 
-nav .menu{
+nav #menu{
      width: 50%;
      display: inline-flex;
      justify-content: flex-start;
 }
 
-nav .menu a{
+nav #menu a{
      display: inline-flex;
      font-size: 18px;
      font-weight: 500;
      text-decoration: none;
 }
 
-nav .menu a:not(:last-child){
+nav #menu a:not(:last-child){
      margin-right: 15%;
 }
 
-nav .menu a:hover{
+nav #menu a:hover{
      text-decoration: underline;
+     cursor: pointer;
 }
 
 /*

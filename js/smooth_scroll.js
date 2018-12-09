@@ -1,7 +1,7 @@
-$(function(){
-     $('a[href^="#"]').click(function(){
-          var target = $(this).attr('href');
-          $('html, body').animate({scrollTop: $(target).offset().top}, 800);
-          return false;
+window.onload=function() {
+     document.getElementById("menu").childNodes.forEach(function(elem) {
+          elem.addEventListener("click", function() {
+               document.getElementById(elem.name).scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
      });
-});
+}
