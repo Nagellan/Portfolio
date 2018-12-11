@@ -330,22 +330,27 @@ nav #menu a:hover{
      background-image: url("../img/design-dtf.jpg");
 }
 
-.slider{
-     margin:0 auto;
-	position:relative;
+.slider {
      width: 100%;
      height: 100%;
+     display: flex;
+     flex-direction: row;
+
+     overflow: hidden;
 }
 
-.slider .slide{
-	width:100%;
+.slide {
      height: 100%;
-	margin:0;
-     padding:0;
-     transition: none;
+     flex-grow: 0;
+
+     transition: all 0.8s ease-in-out;
+
+     background-size: cover;
+     background-position: center;
 }
 
-.slider .slide img{
+.slide a {
+     display: inline-block;
      width: 100%;
      height: 100%;
 }
